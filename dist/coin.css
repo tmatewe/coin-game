@@ -1,0 +1,30 @@
+.container {
+  background-color: silver;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+  margin: 100px auto;
+}
+
+button {
+  padding: 2px;
+  margin: 20px;
+  width: 100px;
+}
+span {
+  padding: 2px;
+  font-size: large;
+  font-weight: bold;
+}
+#computer,
+#player {
+  color: red;
+  font-size: x-large;
+  margin: 20px;
+  padding: 10px;
+}
+
+#finish {
+  width: 250px;
+}
