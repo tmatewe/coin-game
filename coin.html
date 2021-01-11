@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="coin.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h4>Coin game</h2><br>
+      <h6 id="msg"></h6>
+      <h5>Score board</h5>
+      <span>Computer:</span><span id="computer">0</span>
+      <span>Player: </span><span id="player">0</span><br /><br>
+      <h6>Take your guess</h6>
+      <button type="button" class="btn btn-info btn-sm coins">Head</button>
+      <button type="button" class="btn btn-info btn-sm coins">Tail</button><br>
+      <button id="results" class="btn btn-light btn-sm">Get results</button>
+      <button id="start" class="btn btn-dark btn-sm">Play again</button><br>
+      <button id="finish" class="btn btn-danger btn-sm">Click here to start over</button>
+    </div>
+    <script src="coin.js"></script>
+  </body>
+</html>
